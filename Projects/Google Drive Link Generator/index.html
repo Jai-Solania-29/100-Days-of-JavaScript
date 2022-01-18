@@ -5,10 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Google Direct Link Generator</title>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="instructions">
+            <div class="container1">
+                <h2 class="line">Instructions</h2>
+                <p>Follow the instructions below to get your Google Drive file link</p>
+                <hr>
+                <ol type="1">
+                    <li>
+                        <p>Open <a href="https://drive.google.com">Google Drive</a></p>
+                    </li>
+                    <li>
+                        <p>Right click on a file</p>
+                    </li>
+                    <li>
+                        <p>Select "Get link" and click "Copy link"</p>
+                    </li>
+                    <li>
+                        <p>Paste the link here and click "Generate Direct Link" button</p>
+                    </li> 
+                </ol>
+            </div>
+        </div>
+        <!--DOWNLOAD SECTION-->
+        <div class="download-link">
+            <div class="container2">
+                <h1>Google Direct Link Generator</h1>
+                <input type="radio" id="login" name="tab" checked>
+                <input type="radio" id="register" name="tab">
+                <input type="radio" id="reset" name="tab">
+                <nav>
+                    <label for="login" class="login">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Paste Link
+                    </label>
+                    <label for="login" class="register">
+                        <i class="fas fa-headphones-alt"></i>
+                        Embed Audio
+                    </label>
+                    <label for="login" class="reset">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Embed Video/Docs 
+                    </label>
+                </nav>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
